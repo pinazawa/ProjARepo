@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: pinazawa/ProdRepo
-          path: ./current_proj
+          path: ./production_repo
       
       # Runs a single command using the runners shell
       - name: Run a one-line script
